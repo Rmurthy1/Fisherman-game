@@ -18,6 +18,7 @@
 		B108095A2830EF8F006B4CF9 /* FisherManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809592830EF8F006B4CF9 /* FisherManTests.swift */; };
 		B10809642830EF8F006B4CF9 /* FisherManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809632830EF8F006B4CF9 /* FisherManUITests.swift */; };
 		B10809662830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809652830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift */; };
+		B10809732830F552006B4CF9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B10809722830F552006B4CF9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B108095F2830EF8F006B4CF9 /* FisherManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisherManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10809632830EF8F006B4CF9 /* FisherManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherManUITests.swift; sourceTree = "<group>"; };
 		B10809652830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B10809722830F552006B4CF9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B108093F2830EF85006B4CF9 /* AppDelegate.swift */,
+				B10809722830F552006B4CF9 /* README.md */,
 				B10809412830EF85006B4CF9 /* GameScene.sks */,
 				B10809432830EF85006B4CF9 /* Actions.sks */,
 				B10809452830EF85006B4CF9 /* GameScene.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10809732830F552006B4CF9 /* README.md in Resources */,
 				B108094B2830EF86006B4CF9 /* Main.storyboard in Resources */,
 				B10809422830EF85006B4CF9 /* GameScene.sks in Resources */,
 				B108094D2830EF8E006B4CF9 /* Assets.xcassets in Resources */,
