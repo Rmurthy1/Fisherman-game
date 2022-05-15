@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10809402830EF85006B4CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108093F2830EF85006B4CF9 /* AppDelegate.swift */; };
+		B10809422830EF85006B4CF9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B10809412830EF85006B4CF9 /* GameScene.sks */; };
+		B10809442830EF85006B4CF9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B10809432830EF85006B4CF9 /* Actions.sks */; };
+		B10809462830EF85006B4CF9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809452830EF85006B4CF9 /* GameScene.swift */; };
+		B10809482830EF85006B4CF9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809472830EF85006B4CF9 /* GameViewController.swift */; };
+		B108094B2830EF86006B4CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10809492830EF86006B4CF9 /* Main.storyboard */; };
+		B108094D2830EF8E006B4CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B108094C2830EF8E006B4CF9 /* Assets.xcassets */; };
+		B10809502830EF8E006B4CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B108094E2830EF8E006B4CF9 /* LaunchScreen.storyboard */; };
+		B108095A2830EF8F006B4CF9 /* FisherManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809592830EF8F006B4CF9 /* FisherManTests.swift */; };
+		B10809642830EF8F006B4CF9 /* FisherManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809632830EF8F006B4CF9 /* FisherManUITests.swift */; };
+		B10809662830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10809652830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B10809562830EF8F006B4CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10809342830EF85006B4CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B108093B2830EF85006B4CF9;
+			remoteInfo = FisherMan;
+		};
+		B10809602830EF8F006B4CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10809342830EF85006B4CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B108093B2830EF85006B4CF9;
+			remoteInfo = FisherMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B108093C2830EF85006B4CF9 /* FisherMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FisherMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B108093F2830EF85006B4CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10809412830EF85006B4CF9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B10809432830EF85006B4CF9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B10809452830EF85006B4CF9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B10809472830EF85006B4CF9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B108094A2830EF86006B4CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B108094C2830EF8E006B4CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B108094F2830EF8E006B4CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B10809552830EF8F006B4CF9 /* FisherManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisherManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10809592830EF8F006B4CF9 /* FisherManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherManTests.swift; sourceTree = "<group>"; };
+		B108095F2830EF8F006B4CF9 /* FisherManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisherManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10809632830EF8F006B4CF9 /* FisherManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherManUITests.swift; sourceTree = "<group>"; };
+		B10809652830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10809392830EF85006B4CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10809522830EF8F006B4CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B108095C2830EF8F006B4CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10809332830EF85006B4CF9 = {
+			isa = PBXGroup;
+			children = (
+				B108093E2830EF85006B4CF9 /* FisherMan */,
+				B10809582830EF8F006B4CF9 /* FisherManTests */,
+				B10809622830EF8F006B4CF9 /* FisherManUITests */,
+				B108093D2830EF85006B4CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B108093D2830EF85006B4CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B108093C2830EF85006B4CF9 /* FisherMan.app */,
+				B10809552830EF8F006B4CF9 /* FisherManTests.xctest */,
+				B108095F2830EF8F006B4CF9 /* FisherManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B108093E2830EF85006B4CF9 /* FisherMan */ = {
+			isa = PBXGroup;
+			children = (
+				B108093F2830EF85006B4CF9 /* AppDelegate.swift */,
+				B10809412830EF85006B4CF9 /* GameScene.sks */,
+				B10809432830EF85006B4CF9 /* Actions.sks */,
+				B10809452830EF85006B4CF9 /* GameScene.swift */,
+				B10809472830EF85006B4CF9 /* GameViewController.swift */,
+				B10809492830EF86006B4CF9 /* Main.storyboard */,
+				B108094C2830EF8E006B4CF9 /* Assets.xcassets */,
+				B108094E2830EF8E006B4CF9 /* LaunchScreen.storyboard */,
+			);
+			path = FisherMan;
+			sourceTree = "<group>";
+		};
+		B10809582830EF8F006B4CF9 /* FisherManTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10809592830EF8F006B4CF9 /* FisherManTests.swift */,
+			);
+			path = FisherManTests;
+			sourceTree = "<group>";
+		};
+		B10809622830EF8F006B4CF9 /* FisherManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B10809632830EF8F006B4CF9 /* FisherManUITests.swift */,
+				B10809652830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift */,
+			);
+			path = FisherManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B108093B2830EF85006B4CF9 /* FisherMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10809692830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherMan" */;
+			buildPhases = (
+				B10809382830EF85006B4CF9 /* Sources */,
+				B10809392830EF85006B4CF9 /* Frameworks */,
+				B108093A2830EF85006B4CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FisherMan;
+			productName = FisherMan;
+			productReference = B108093C2830EF85006B4CF9 /* FisherMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10809542830EF8F006B4CF9 /* FisherManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B108096C2830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherManTests" */;
+			buildPhases = (
+				B10809512830EF8F006B4CF9 /* Sources */,
+				B10809522830EF8F006B4CF9 /* Frameworks */,
+				B10809532830EF8F006B4CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10809572830EF8F006B4CF9 /* PBXTargetDependency */,
+			);
+			name = FisherManTests;
+			productName = FisherManTests;
+			productReference = B10809552830EF8F006B4CF9 /* FisherManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B108095E2830EF8F006B4CF9 /* FisherManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B108096F2830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherManUITests" */;
+			buildPhases = (
+				B108095B2830EF8F006B4CF9 /* Sources */,
+				B108095C2830EF8F006B4CF9 /* Frameworks */,
+				B108095D2830EF8F006B4CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10809612830EF8F006B4CF9 /* PBXTargetDependency */,
+			);
+			name = FisherManUITests;
+			productName = FisherManUITests;
+			productReference = B108095F2830EF8F006B4CF9 /* FisherManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10809342830EF85006B4CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B108093B2830EF85006B4CF9 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B10809542830EF8F006B4CF9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B108093B2830EF85006B4CF9;
+					};
+					B108095E2830EF8F006B4CF9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B108093B2830EF85006B4CF9;
+					};
+				};
+			};
+			buildConfigurationList = B10809372830EF85006B4CF9 /* Build configuration list for PBXProject "FisherMan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B10809332830EF85006B4CF9;
+			productRefGroup = B108093D2830EF85006B4CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B108093B2830EF85006B4CF9 /* FisherMan */,
+				B10809542830EF8F006B4CF9 /* FisherManTests */,
+				B108095E2830EF8F006B4CF9 /* FisherManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B108093A2830EF85006B4CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B108094B2830EF86006B4CF9 /* Main.storyboard in Resources */,
+				B10809422830EF85006B4CF9 /* GameScene.sks in Resources */,
+				B108094D2830EF8E006B4CF9 /* Assets.xcassets in Resources */,
+				B10809502830EF8E006B4CF9 /* LaunchScreen.storyboard in Resources */,
+				B10809442830EF85006B4CF9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10809532830EF8F006B4CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B108095D2830EF8F006B4CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10809382830EF85006B4CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10809462830EF85006B4CF9 /* GameScene.swift in Sources */,
+				B10809482830EF85006B4CF9 /* GameViewController.swift in Sources */,
+				B10809402830EF85006B4CF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10809512830EF8F006B4CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B108095A2830EF8F006B4CF9 /* FisherManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B108095B2830EF8F006B4CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10809662830EF8F006B4CF9 /* FisherManUITestsLaunchTests.swift in Sources */,
+				B10809642830EF8F006B4CF9 /* FisherManUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10809572830EF8F006B4CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B108093B2830EF85006B4CF9 /* FisherMan */;
+			targetProxy = B10809562830EF8F006B4CF9 /* PBXContainerItemProxy */;
+		};
+		B10809612830EF8F006B4CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B108093B2830EF85006B4CF9 /* FisherMan */;
+			targetProxy = B10809602830EF8F006B4CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B10809492830EF86006B4CF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B108094A2830EF86006B4CF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B108094E2830EF8E006B4CF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B108094F2830EF8E006B4CF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10809672830EF8F006B4CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10809682830EF8F006B4CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B108096A2830EF8F006B4CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B108096B2830EF8F006B4CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B108096D2830EF8F006B4CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FisherMan.app/FisherMan";
+			};
+			name = Debug;
+		};
+		B108096E2830EF8F006B4CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FisherMan.app/FisherMan";
+			};
+			name = Release;
+		};
+		B10809702830EF8F006B4CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FisherMan;
+			};
+			name = Debug;
+		};
+		B10809712830EF8F006B4CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49X3R4MV84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BHGames.FisherManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FisherMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10809372830EF85006B4CF9 /* Build configuration list for PBXProject "FisherMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10809672830EF8F006B4CF9 /* Debug */,
+				B10809682830EF8F006B4CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10809692830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B108096A2830EF8F006B4CF9 /* Debug */,
+				B108096B2830EF8F006B4CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B108096C2830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B108096D2830EF8F006B4CF9 /* Debug */,
+				B108096E2830EF8F006B4CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B108096F2830EF8F006B4CF9 /* Build configuration list for PBXNativeTarget "FisherManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10809702830EF8F006B4CF9 /* Debug */,
+				B10809712830EF8F006B4CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10809342830EF85006B4CF9 /* Project object */;
+}
